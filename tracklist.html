@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .container {
+            width: 1280px;
+            max-width: none !important;
+        }
+
+        .navbar-default {
+            border: none;
+            border-radius: 0;
+            background: white;
+        }
+
+        .m {
+            vertical-align: middle;
+        }
+
+        td {
+            border: 1px solid white;
+        }
+    </style>
+
+    <script>7
+        function changeTint(obj) {
+            if (document.getElementById(obj.id).className == "btn btn-default") {
+
+                document.getElementById(obj.id).className = "btn btn-primary";
+            } else if (document.getElementById(obj.id).className == "btn btn-primary") {
+                document.getElementById(obj.id).className = "btn btn-default";
+
+            }
+        }
+    </script>
+
+</head>
+
+<body>  
+
+
+
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-default">
+
+
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">  <img style="max-width:100px; margin-top: -12px;"
+             src="sejong.jpg"></a> </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#" style="font-weight: bold">마이페이지</a></li>
+                <li><a href="#" style="font-weight: bold">이수Plan</a></li>
+                <li><a href="#" style="font-weight: bold">취업정보</a></li>
+                <li><a href="#" style="font-weight: bold">커뮤니티</a></li>
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <!--/navbar-->
+
+    <div class="container">
+
+
+        <div>
+            <h2>수강과목&nbsp;
+                <xsall>트랙 만들기</xsall>
+            </h2>
+
+            <div class="row">
+                <div class="col-xs-12 sidenav">
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="2">
+                                <p><strong> 가상현실<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="48">멀티미디어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="20">컴퓨터<br>그래픽스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="50">고급 실시간<br>그래픽스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="37">가상 현실</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="53">증강 현실</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="9">멀티미디어</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="49">게임<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="51">디지털<br>사운드</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="52">컴퓨터<br>애니메이션</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="40">HCI 개론</button>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="2">
+                                <p><strong> 인공지능<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="48">멀티미디어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="35">인공 지능</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="56">기계 학습</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="57">패턴 인식</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="54">데이터베이스<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="32">영상처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="58">컴퓨터비전<br>시스템</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="55">데이터분석</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="43">지능형<br>시스템</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="2">
+                                <p><strong> 응용sw<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="6">문제해결및<br>실습C++</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="59">윈도우<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="42">모바일<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="5">웹<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="48">멀티미디어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="32">영상처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="58">컴퓨터비전<br>시스템</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="51">디지털<br>사운드</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="60">음성처리<br>SW</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="2">
+                                <p><strong> HCI&VC<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="5">웹프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="15">웹프로그래밍<br>설계</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="61">웹 기반 시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="62">데이터<br>컴퓨팅</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="41">정보검색</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="48">멀티미디어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="27">XML<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="20">컴퓨터<br>그래픽스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="24">디지털<br>신호처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="32">영상처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="40">HCI<br>개론</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="2">
+                                <p><strong> 멀티미디어<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="9">멀티미디어</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="63">멀티미디어<br>데이터베이스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="57">패턴인식</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="58">컴퓨터<br>비전시스템</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="48">멀티미디어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="14">신호및<br>시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="24">디지털<br>신호처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="32">영상처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="64">영상처리<br>프로그래밍</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="20">컴퓨터<br>그래픽스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="37">가상현실</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="42">모바일<br>프로그래밍</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="5">
+                                <p><strong> 사물인터넷<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="5">웹
+                                    <BR>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="34">네트워크
+                                    <BR>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="66">스마트<br>그리드</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="36">정보보호개론</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="44">인터넷보안</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="23">통신시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="65">데이터 통신</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="19">임베디드
+                                    <BR>시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="14">신호및
+                                    <BR>시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="24">디지털
+                                    <BR>신호처리</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="31">무선통신</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="3">
+                                <p><strong> 시스템응용<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="17">데이터베이스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="29">UNIX<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="67">시스템모델링</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="68">분산 시스템</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="22">프로그래밍<br>언어의개념</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="30">소프트웨어<br>공학</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="45">컴파일러</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="13">마이크로<br>컴퓨터</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="21">VHDL<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="47">멀티코어<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="19">임베디드<br>시스템</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+
+
+
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="3">
+                                <p><strong> 지능형인지<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="5">웹프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="57">패턴인식</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="41">정보검색</button>
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="59">윈도우<br>프로그래밍</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="9">멀티미디어</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="17">데이터베이스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="35">인공지능</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="43">지능형 시스템</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="37">가상현실</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="40">HCI 개론</button>
+                            </td>
+
+
+
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="3">
+                                <p><strong> 데이터사이언스<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="69">데이터분석<br>개론</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="70">비즈니스<br>인텔리전스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="56">기계학습</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="72">대용량데이터<br>처리개론</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="17">데이터베이스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="73">텍스트<br>마이닝</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="74">의사결정<br>모델링</button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="20">컴퓨터<br>그래픽스</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="71">데이터<br>시각화</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="75">데이터기반<br>인공지능</button>
+                            </td>
+
+
+
+                        </tr>
+
+
+                    </table>
+
+                    <table class="table">
+                        <tr>
+
+                            <th width="10%">
+                                <div class="well well-xs  text-center">
+                                    항목
+                                </div>
+                            </th>
+
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15%">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+                            <th width="15">
+                                <div class="well well-xs  text-center">
+                                    1-1
+                                </div>
+                            </th>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white" rowspan="4">
+                                <p><strong> 정보보호<br>트랙교과목</strong></p>
+                                </button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" type="" style="width: 70%; height: 54px" id="76">보안<br>프로그래밍</button>
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="18">운영체제</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="79">시스템<br>해킹과보안</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+
+                            </td>
+                        </tr>
+
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="77">어셈블리어</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="80">악성코드<br>분석</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="28">컴퓨터<br>네트워크</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="81">네트워크<br>해킹과보안</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+
+
+
+                        </tr>
+                        <tr style="border: 1px solid white">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="78">대칭키<br>암호론</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="83">공개키<br>암호론</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="44">인터넷보안</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                                <btuuon onclick="changeTint(this)" class="btn btn-default" style="width: 70%; height: 54px" type="" id="82">디지털<br>포렌식</button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white">
+                            </td>
+
+
+
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <br>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" lang="javascript">
+
+    </script>
+
+    <script>
+        $.ajax({
+            type: "GET",
+            url: "http://52.78.234.100:3004/user/1/courseinfo",
+            dataType: "json",
+            success: function (json) {
+
+                var obj = JSON.stringify(json);
+                obj = $.parseJSON(obj);
+
+            },
+            error: function (e) {
+                alert("처리중 장애가 발생하였습니다.");
+                alert("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+            }
+        });
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

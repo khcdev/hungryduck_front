@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .container {
+            width: 1280px;
+            max-width: none !important;
+        }
+
+        .navbar-default {
+            border: none;
+            border-radius: 0;
+            background: white;
+        }
+
+        .m {
+            vertical-align: middle;
+        }
+
+        td {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-default">
+
+
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">  <img style="max-width:100px; margin-top: -12px;"
+             src="sejong.jpg"></a> </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#" style="font-weight: bold">마이페이지</a></li>
+                <li><a href="#" style="font-weight: bold">취업정보</a></li>
+                <li><a href="#" style="font-weight: bold">커뮤니티</a></li>
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <!--/navbar-->
+
+    <div class="container">
+
+
+        <div>
+            <h2>수강 이수 체계&nbsp;
+                <small>현재수강중인과목</small>
+            </h2>
+
+            <div class="row">
+                <div class="col-xs-12 sidenav">
+
+                    <table class="table">
+                        <tr>
+                            <th style="text-align: center; vertical-align: middle " width="12% ">
+                                <div style="padding-bottom: 15px;">
+                                    <strong style="font-size: 24px;">학기</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">1-1</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">1-2</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">2-1</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">2-2</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">3-1</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">3-2</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">4-1</strong>
+                                </div>
+                            </th>
+                            <th width="11% ">
+                                <div class="well well-xs text-center ">
+                                    <strong style="font-size: 24px;">4-2</strong>
+                                </div>
+                            </th>
+
+                        </tr>
+
+
+                        <tr style="border: 1px solid white ">
+                            <td rowspan="2 " style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <strong style="font-size: 24px;">영어<br>전문<br>교양</strong>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="84">영어 읽기<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="85">영어 듣기<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="86">영어 쓰기1<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="87">영어 쓰기2<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="88">문제해결을 위한<br /> 글쓰기와 발표<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="89">서양철학:<br />쟁점과 토론<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="90">세계사:<br />인간과 문명<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="91">정보사회의<br />사이버윤리<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td rowspan="2 " style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <strong style="font-size: 24px;">기초<br>과학<br>수학</strong>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="92">일반물리학 <br />및 실험1<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="95">이산수학<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="96">확률 및 통계<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="">선형대수<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="93">미적분학<br />및 연습1<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="94">공업수학<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td rowspan="10 " style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <strong style="font-size: 24px;">전공</strong>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="14">신호 및<br />시스템<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="23">통신시스템<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="31">무선통신<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="39">객체지향<br />설계기술<br></button>
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty" id="1" type=" " style="width: 95%; height: 54px">전산개론I<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="3">공학<br />설계기초<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="24">디지털<br />신호처리<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="32">영상처리<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="40">HCI개론<br></button>
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="5">웹프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="9">멀티미디어<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="15">웹프로그래밍<br />설계<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="25">심화프로그래밍<br />설계<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="33">Capstone<br />디자인설계<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="41">정보검색<br></button>
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="2">C프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px" id="4">고급<br />C프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="6">C++<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="10">JAVA<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="16">C#<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="26">닷넷<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="34">네트워크<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="42">모바일<br />프로그래밍<br></button>
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="17">데이터베이스<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="27">XML프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="7">데이터구조론<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="11">알고리즘<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="18">운영체제<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="28">컴퓨터<br />네트워크<br /></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="35">인공지능<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="43">지능형시스템<br></button>
+                            </td>
+
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="8">디지털시스템<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="12">컴퓨터구조론<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="19">임베디드<br />시스템<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="29">UNIX<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="36">정보보호개론<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white
+                                "> <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="44">인터넷보안<br></button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="13">마이크로<br />컴퓨터<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="20">컴퓨터<br />그래픽스<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="30">소프트웨어<br />공학<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="37">가상현실<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="45">컴파일러<br></button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="21">VHDL<br />프로그래밍<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="38">전산특강1<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="46">전산특강2<br></button>
+                            </td>
+                        </tr>
+
+                        <tr style="border: 1px solid white ">
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center ;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="22">프로그래밍<br />언어의 개념<br></button>
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+
+                            </td>
+                            <td style="vertical-align: middle; text-align: center;border: 1px solid white ">
+                                <button class="btn btn-defaulty " type=" " style="width: 95%; height: 54px " id="47">멀티코어<br />프로그래밍<br></button>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+            <hr>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row content">
+            <div class="col-xs-3 sidenav">
+                <div id="donutchart"></div>
+            </div>
+            <div class="col-xs-3 sidenav">
+                <div id="donutchart2"></div>
+            </div>
+            <div class="col-xs-3 sidenav">
+                <div id="donutchart3"></div>
+            </div>
+            <div class="col-xs-3 sidenav">
+                <div id="donutchart4"></div>
+            </div>
+            <a style="float: right" type="" class="btn btn-primary" href=tracklist.html>트랙만들기</a>
+        </div>
+        <br>
+    </div>
+
+    <br>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+        }
+    </script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart2'));
+            chart.draw(data, options);
+        }
+    </script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart3'));
+            chart.draw(data, options);
+        }
+    </script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart4'));
+            chart.draw(data, options);
+        }
+
+        function getAbsolutePos(obj) {
+            var position = new Object;
+            position.x = 0;
+            position.y = 0;
+            if (obj) {
+                position.x = obj.offsetLeft + obj.clientLeft;
+                position.y = obj.offsetTop + obj.clientTop;
+                if (obj.offsetParent) {
+                    var parentpos = getAbsolutePos(obj.offsetParent);
+                    position.x += parentpos.x;
+                    position.y += parentpos.y;
+                }
+            }
+            alert(obj);
+            return position;
+        }
+    </script>
+
+    <br>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" lang="javascript">
+
+    </script>
+
+    <script>
+        $.ajax({
+            type: "GET",
+            url: "http://52.78.234.100:3004/user/1/courseinfo",
+            dataType: "json",
+            success: function (json) {
+
+                var obj = JSON.stringify(json);
+                obj = $.parseJSON(obj);
+                for (var i = 0; i < obj.completeCourse.length; i++) {
+                    if (document.getElementById(obj.completeCourse[i].courseId)) {
+                        document.getElementById(obj.completeCourse[i].courseId).className = "btn btn-success active";
+                    }
+                }
+
+            },
+            error: function (e) {
+                alert("처리중 장애가 발생하였습니다.");
+                alert("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+            }
+        });
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>
